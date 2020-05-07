@@ -2,44 +2,22 @@
 <html>
     <head>
         <title>Add product</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            .container {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                width: 50%;
-            }
-        </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     </head>
     <body>
-        <form action="product_details.html" class="container">
-            <div>
-                <label for="productNumber">Product ID : </label>
-                <input type="text" name="" id="productNumber">
-            </div>
-            <div>
-                <label for="productName">Product name : </label>
-                <input type="text" name="" id="productName">
-            </div>
-                <label for="productQuantity">Quantite : </label>
-                <input type="number" name="" id="productQuantity">
-            <div>
-                <label for="productPrice">Prix unitaire : </label>
-                <input type="number" name="" id="productPrice">
-            </div>
-            <div>
-                <label for="productCategory">Category : </label>
-                <input list="CategoryList" id="productCategory">
-                <datalist id="CategoryList">
-                    <option value="Category 1">
-                    <option value="Category 2">
-                    <option value="Category 3">
-                </datalist>
-            </div>           
-            <div>
+        <form action="product_list.html" >
+                <input type="text" name="" id="productNumber" placeholder="Product ID">
+                <input type="text" name="" id="productName" placeholder="Product Name">
+                <input type="number" name="" id="productQuantity" placeholder="Quantity">
+                <input type="number" name="" id="productPrice" placeholder="Price">
+                <input list="CategoryList" id="productCategory" placeholder="Categpry">
+                    <datalist id="CategoryList">
+                        <option value="Category 1">
+                        <option value="Category 2">
+                        <option value="Category 3">
+                    </datalist>
                 <button type="submit">Add Product</button>
-            </div>
         </form>
     </body>
 </html>
