@@ -1,0 +1,14 @@
+div {
+  font-family: sans-serif; }
+
+div {
+  color: red; }
+  div h2 {
+    text-align: center; }
+  div h3 {
+    font-style: italic; }
+  div p {
+    color: black;
+    background-color: grey; }
+
+/*# sourceMappingURL=product_desc.css.map */

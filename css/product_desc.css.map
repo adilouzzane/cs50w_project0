@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,GAAS;EACL,WAAW,EAAE,UAAU;;AAG3B,GAAI;EAEA,KAAK,EAPD,GAAG;EAQP,MAAE;IACE,UAAU,EAAE,MAAM;EAEtB,MAAE;IACE,UAAU,EAAE,MAAM;EAGtB,KAAE;IACE,KAAK,EAAE,KAAK;IACZ,gBAAgB,EAAE,IAAI",
+"sources": ["product_desc.scss"],
+"names": [],
+"file": "product_desc.css"
+}

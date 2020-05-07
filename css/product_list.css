@@ -1,0 +1,37 @@
+@media print {
+    button,table img {
+        display: none;
+    }
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    
+}
+
+button{
+    padding: 10px 15px;
+    margin: 10px;
+    font-size:large;
+    display: inline-block;
+
+}
+
+.button-group {
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    display: inline-flex;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: cornflowerblue;
+}
